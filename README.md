@@ -1,7 +1,7 @@
 # CHiP
 Configurable Hybrid Parallel Covering Array Constructor
 
-Configuration Space Model File
+**Configuration Space Model File**
 * Configuration space models have the .configModel extension.
 * Input explanations for each line of the file:
   1) Name of the output file for the computed covering array.
@@ -38,7 +38,7 @@ How to run
 * -a : Path to acts.jar file.
 * -s : Path to sugar file.
 
-An example run:  
+An example run:    
 > ./CHiP -v balanced -c sample.configModel -a actsPath -s sugarPath
 
 
