@@ -21,16 +21,16 @@ Configurable Hybrid Parallel Covering Array Constructor
 * Currently CHiP supports 3 different strength values, t=2, 3 and 4.
 * All the experiment results presented in the paper are shared in Experiments folder.
 
-Dependencies
+**Dependencies**
 * CUDA programming model, https://developer.nvidia.com/. We tested CHiP with CUDA 7.5, therefore any version aobve that should be enough. 
 * Sugar: a SAT-based Constraint Solver, http://bach.istc.kobe-u.ac.jp/sugar/
 * ACTS v2.9: https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software/
 * GECODE: http://www.gecode.org/
   
-How to build
+**How to build**
 * Currently we do not provide the source code.
 
-How to run
+**How to run**
 ./CHiP -v chipVersion -c /path/to/configModel -a /path/to/acts -s /path/to/sugar
 
 * -v : CHIP version. Available parameters are: fast, balanced, quality and super-quality. Default is balanced.
