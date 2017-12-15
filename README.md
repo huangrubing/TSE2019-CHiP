@@ -33,13 +33,14 @@ Configurable Hybrid Parallel Covering Array Constructor
 **How to run**
 ./CHiP -v chipVersion -c /path/to/configModel -a /path/to/acts -s /path/to/sugar
 
-* -v : CHIP version. Available parameters are: fast, balanced, quality and super-quality. Default is balanced.
-* -c : Path to configuration space model file.
-* -a : Path to acts.jar file.
-* -s : Path to sugar file.
+* -c : CHIP configuration. Available parameters are: f, b, q and sq. Default is b. 
+* -t : Strength of the covering array. 
+* -m : Path to configuration space model file. 
+* -a : Path to acts.jar file. 
+* -s : Path to sugar file. 
 
 An example run:    
-> ./CHiP -v balanced -c sample.configModel -a actsPath -s sugarPath
+> ./CHiP -c b -m sample.configModel -a actsPath -s sugarPath -t 3
 
 
 Note: This is the first release of the tool, so please send any errors that you encounter or any suggestions and questions about the tool to hanefimercan@sabanciuniv.edu
