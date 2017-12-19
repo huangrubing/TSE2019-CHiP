@@ -31,7 +31,7 @@ Configurable Hybrid Parallel Covering Array Constructor
 * Currently we do not provide the source code.
 
 **How to run**
-./CHiP -v chipVersion -c /path/to/configModel -a /path/to/acts -s /path/to/sugar
+./CHiP -c chipVersion -t 3 -m /path/to/configModel -a /path/to/acts -s /path/to/sugar
 
 * -c : CHIP configuration. Available parameters are: f, b, q and sq. Default is b. 
 * -t : Strength of the covering array. 
