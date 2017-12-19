@@ -19,7 +19,7 @@ Configurable Hybrid Parallel Covering Array Constructor
   They indicate that the tuples (o1=0∧o2=1) and (o2=2∧o1=1∧o5=0) are forbidden to be appear in any configurations of computed covering array, i.e., they are invalid tuples.
 * A sample configuration space model as well as a set of configurations space models for benchmarking are provided.
 * Currently CHiP supports 3 different strength values, t=2, 3 and 4.
-* All the experiment results presented in the paper are shared in Experiments folder.
+* All the experiment results reported in the paper are presented in the Experiments folder.
 
 **Dependencies**
 * CUDA programming model, https://developer.nvidia.com/. We tested CHiP with CUDA 7.5, therefore any version aobve that should be enough. 
