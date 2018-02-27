@@ -40,10 +40,10 @@ Configurable Hybrid Parallel Covering Array Constructor
 * -s : Path to sugar file.  
 Note that below parameters are only avaialable if you do not provide the CHiP configuration (using -c)
 * -p : Percentage of the ACTS size for the initial state size of CHiP. E.g., initialChipSize = actsSize * (percentage / 100)
-* -r : Cooling rate adjustment factor. E.g., Tr = Tr * adjsutmentFactor
+* -r : Cooling rate adjustment factor. E.g., Tr = Tr * adjustmentFactor
 * -I : Initial temperature.
 * -T : Terminating temperature.
-* -S : Number of simulated annealing running in parallel.
+* -S : Number of simulated annealing instances running in parallel.
 * -B : Number of blocks reserved for a single simulated annealing.
 
 Example runs:    
