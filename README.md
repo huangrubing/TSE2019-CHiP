@@ -36,8 +36,15 @@ Configurable Hybrid Parallel Covering Array Constructor
 * -c : CHIP configuration. Available parameters are: f, b, q and sq. Default is b. 
 * -t : Strength of the covering array. 
 * -m : Path to configuration space model file. 
-* -a : Path to acts.jar file. 
-* -s : Path to sugar file. 
+* -a : Path to acts.jar (v2.9) file.
+* -s : Path to sugar file.  
+Note that below parameters are only avaialable if you do not provide the CHiP configuration (using -c)
+* -p : Percentage of the ACTS size for the initial state size of CHiP. E.g., initialChipSize = actsSize * (percentage / 100)
+* -r : Cooling rate adjustment factor. E.g., Tr = Tr * adjsutmentFactor
+* -I : Initial temperature.
+* -T : Terminating temperature.
+* -S : Number of simulated annealing running in parallel.
+* -B : Number of blocks reserved for a single simulated annealing.
 
 Example runs:    
 > ./CHiP -c b -m sample.configModel -a actsPath -s sugarPath -t 3  
