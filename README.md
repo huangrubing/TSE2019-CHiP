@@ -39,8 +39,9 @@ Configurable Hybrid Parallel Covering Array Constructor
 * -a : Path to acts.jar file. 
 * -s : Path to sugar file. 
 
-An example run:    
-> ./CHiP -c b -m sample.configModel -a actsPath -s sugarPath -t 3
+Example runs:    
+> ./CHiP -c b -m sample.configModel -a actsPath -s sugarPath -t 3  
+> ./CHiP  -a actsPath -s sugarPath -t 2 -m sample.configModel -I 0.01 -T 10 -p 40 -r 0.5 
 
 
 Note: This is the first release of the tool, so please send any errors that you encounter or any suggestions and questions about the tool to hanefimercan@sabanciuniv.edu
